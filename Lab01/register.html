@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김수완-사용자 등록</title>
+</head>
+<body>
+        <header> 
+        <h1>사용자 등록 신청서</h1>
+  
+    </header>
+
+    <main>
+            <form>
+                <fieldset>
+                    <legend>기본 정보(Essential)</legend>
+                    <label for="ID">아이디:</label><br>
+                    <input type="text" id="ID" name="ID" placeholder="4~12자 영문/숫자" required><br>
+
+                    <label for="PW">비밀번호:</label><br>
+                    <input type="password" id="PW" name="PW" required><br>
+
+                    <label for="EM">이메일:</label><br>
+                    <input type="email" id="EM" name="EM" required><br>
+
+                </fieldset>
+            
+                <fieldset>
+                <legend>부가 정보(Optional)</legend>
+                    <label for="phon">연락처:</label><br>
+                    <input type="tel" id="phon" name="phon"  placeholder="010-1234-5678" pattern="[0-9]{3}-[0-0]{4}-[0-9]{4}"><br>
+
+                    <h3>관심분야</h3>
+                    <input type="checkbox" id="inter" name="inter" value="HTML5">
+                    <label for="inter">HTML5</label><br>
+                    <input type="checkbox" id="inter" name="inter" value="CSS3">
+                    <label for="inter">CSS3</label><br>
+                    <input type="checkbox" id="inter" name="inter" value="JavaScript">
+                    <label for="inter">JavaScript</label><br>
+
+                    <label for="vol">숙련도</label><br> 
+                    <input type="range" id="vol" name="vol" min="0" max="10" step="1"><br>
+                    
+
+                </fieldset>
+
+                <input type="submit" value="가입 신청">
+                <input type="reset" value="초기화">
+
+            </form>
+ 
+
+    </form>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html">홈으로</a>
+            <p>김수완. 2311773. 문헌정보학과</p>
+        </nav>
+    </footer>
+    
+</body>
+</html>
