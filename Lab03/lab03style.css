@@ -199,7 +199,8 @@
 		}
 
 
-		@media(max-width: 360px) { /*모바일 360px*/
+		
+		@media(max-width: 480px) { /*모바일 480px*/
 
 
 			#top_header {
